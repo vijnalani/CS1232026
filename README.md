@@ -31,8 +31,23 @@ lab03/
 ├── README.md                — завдання роботи
 └── submissions/
     └── ГРУПА_Прізвище/      — ваш каталог: і більше ніде ви нічого не змінюєте
+lab04/
+├── README.md                — завдання роботи
+├── starter/                 — wordfreq, buggy.c, overflow.c і Makefile: скопіюйте все до свого каталогу
+└── submissions/
+lab05/
+├── README.md                — завдання роботи
+├── starter/                 — selfinfo, launch, forkcost, calc і Makefile: скопіюйте все до свого каталогу
+└── submissions/
 tools/
-└── make-bisect-repo.sh      — навчальний репозиторій для вправи з git bisect
+├── make-bisect-repo.sh      — навчальний репозиторій для вправи з git bisect (ЛР 3)
+├── echo-test.py             — перевірка echo-сервера (додаткова робота з моделей I/O)
+├── echo-bench.c             — навантажувальний клієнт для echo-сервера, make -C tools
+├── mem.sh                   — процеси й пам'ять сервера під навантаженням
+├── wordfreq-test.py         — перевірка wordfreq і її обробки помилок (ЛР 4)
+├── gen-text.py              — детермінований корпус текстів для вимірювань (ЛР 4)
+├── bench.py                 — медіана кількох запусків команди (ЛР 4)
+└── lab05-test.py            — тести launch і calc (ЛР 5)
 ```
 
 ## Правила

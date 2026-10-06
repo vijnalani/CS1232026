@@ -6,6 +6,43 @@
 target/
 minigrep
 sum
+blocking
+epoll
+uring
+tools/echo-bench
+# ЛР 4
+wordfreq
+wordfreq-naive
+wordfreq-asan
+wordfreq-naive-asan
+wordfreq-O0
+wf-O*
+buggy
+buggy-*
+overflow-*
+broken
+linked
+linked-static
+*.i
+*.s
+corpus-*.txt
+perf.data*
+perf.corpus-*
+callgrind.out.*
+cg.naive
+# ЛР 5
+selfinfo
+launch
+forkcost
+calc
+calc-gcc-O0
+calc-gcc-O2
+calc-clang-O2
+trace.txt
+in.txt
+*.out
+*.pid
+*.log
 
 # редактори та системні файли
 .vscode/
